@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-family: 'Acme', sans-serif;
+}
+
+#content{
+    
+    text-align: center;
+    background: rgb(22,20,21);
+    background: linear-gradient(45deg, rgba(22,20,21,1) 0%, rgba(20,45,74,1) 100%);
+    padding: 44px;
+    border-radius: 12px;
+    -webkit-box-shadow: 10px 10px 32px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 32px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 32px 0px rgba(0,0,0,0.75);    
+}
+
+#content h1,p{
+    font-size: 2.6em;
+    font-weight:100;
+    background: rgb(92,82,76);
+    background: linear-gradient(53deg, rgb(207, 245, 82) 20%, rgb(238, 117, 73) 52%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-shadow: -8px -8px 15px rgba(255,255,255,0.1);
+}
+
+#stopWatch ,#text{
+    margin-bottom: 2rem;
+}
+
+p{
+    margin-bottom: 0.8rem;
+}
+
+#content button{
+    padding: 18px 10px;
+    font-size: 1.2em;
+    width: 180px;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    background-color: transparent;
+    background: rgb(92,82,76);
+    background: linear-gradient(53deg, rgb(46, 228, 143) 20%, rgb(56, 219, 240) 52%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-shadow: 4px 4px 10px rgba(1,1,1,0.41);
+    font-family: 'Acme', sans-serif;
+    text-transform: uppercase;
+    box-shadow: -8px -8px 15px rgba(255,255,255,0.1),5px 5px 15px rgba(0,0,0,0.2);
+}
+
+#content button:hover{
+    background: linear-gradient(53deg, rgb(238, 0, 211) 20%, rgb(89, 47, 230) 52%);
+    -webkit-background-clip: text;
+    background-color: transparent;
+    
+}

@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container{
+    background: rgb(0,191,105);
+    background: linear-gradient(53deg, rgba(0,191,105,1) 31%, rgba(120,18,235,1) 85%);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.clock{
+    background: rgb(191,70,0);
+    background: linear-gradient(53deg, rgba(191,70,0,1) 31%, rgba(235,18,59,1) 55%);
+    padding: 20px 60px;
+    height: 40px;
+    padding: 64px 123px;
+    border: transparent;
+    border-radius: 120px;
+    font-size: 38px;
+    align-items: center;
+    display: flex;
+    -webkit-box-shadow: 20px 20px 37px -14px rgba(0,0,0,0.75);
+    -moz-box-shadow: 20px 20px 37px -14px rgba(0,0,0,0.75);
+    box-shadow: 20px 20px 37px -14px rgba(0,0,0,0.75);
+}
+
+.clock .bg{
+    background: rgb(92,82,76);
+    background: linear-gradient(53deg, rgba(92,82,76,1) 20%, rgba(176,176,175,1) 52%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-shadow: 4px 4px 10px rgba(1,1,1,0.41);
+}
+
+.font #am-or-pm{
+    padding-left: 20px;
+}
